@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Inno Setup
+Output/
+Setup_Output/
+*.iss.bak
+
+# Системные
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
