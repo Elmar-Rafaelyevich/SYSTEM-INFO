@@ -1,53 +1,44 @@
-📦 payload
+# 📦 Payload
 
-Educational payload repository for cybersecurity research and malware analysis.
+**Образовательный репозиторий с пэйлоадами для исследований в области кибербезопасности и анализа вредоносного ПО.**
 
-This repository is a controlled laboratory collection of payloads used for educational, research, and defensive security purposes.
-It is intended for studying how payloads behave, how they are detected, and how systems can be protected against them.
+Этот репозиторий представляет собой контролируемую лабораторную коллекцию пэйлоадов, используемых для образовательных, исследовательских целей и изучения методов защиты. Он предназначен для изучения поведения пэйлоадов, способов их обнаружения и методов защиты систем от них.
 
-🔬 Purpose
+---
 
-Learning offensive and defensive security concepts
+## 🔬 Цель проекта
 
-Malware analysis and reverse engineering
+### Основные задачи:
 
-Understanding delivery mechanisms and execution flow
+| Цель | Описание |
+|------|----------|
+| 🎓 **Изучение концепций безопасности** | Понимание offensive и defensive аспектов |
+| 🔍 **Анализ вредоносного ПО** | Исследование структуры и поведения |
+| 📦 **Механизмы доставки** | Изучение способов распространения |
+| 🛡️ **Тестирование защиты** | Проверка детектов и песочниц |
+| 🎯 **Red Team / Blue Team** | Развитие практических навыков |
 
-Testing detection, sandboxing, and mitigation techniques
+### Для кого предназначено:
 
-Building hands-on skills for Red Team / Blue Team scenarios
+- Студенты направлений ИБ
+- Специалисты по анализу вредоносного ПО
+- Red Team специалисты
+- Blue Team специалисты
+- Исследователи безопасности
+- Преподаватели курсов по кибербезопасности
 
-🧪 Contents
+---
 
-The repository may include:
+## 🧪 Содержимое репозитория
 
-Proof-of-Concept payloads (PoC)
+### Типы материалов:
 
-Educational malware samples
+| Категория | Описание | Примеры |
+|-----------|----------|---------|
+| 🧪 **PoC пэйлоады** | Proof-of-concept коды для демонстрации уязвимостей | Reverse shell, keylogger |
+| 🦠 **Образцы malware** | Учебные образцы вредоносного ПО | Ransomware simulator, worm |
+| 📜 **Скрипты** | Пэйлоады на различных языках | PowerShell, Python, Batch |
+| 🔄 **Эмуляция поведения** | Имитация вредоносной активности | C2 communication, persistence |
+| 🔬 **Бинарные файлы** | Скомпилированные образцы для анализа | PE files, ELF, Mach-O |
 
-Script-based payloads for testing
 
-Simulated malicious behaviors
-
-Analysis-ready binaries and scripts
-
-⚠️ All materials are intended strictly for educational and research use
-⚠️ Samples are designed to be used only in isolated lab environments (VMs, sandboxes)
-
-🛑 Disclaimer
-
-This repository must not be used on production systems, personal devices, or systems without explicit permission.
-The author does not encourage or support illegal activities.
-All responsibility for misuse lies solely with the user.
-
-🧱 Recommended Environment
-
-Virtual Machines (VirtualBox / VMware / Hyper-V)
-
-Offline or isolated networks
-
-Snapshots enabled before execution
-
-📚 Status
-
-This repository is continuously evolving as part of a personal cybersecurity learning path.
